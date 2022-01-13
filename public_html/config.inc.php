@@ -126,9 +126,9 @@ sitewide_privacy_statement = Off
 
 driver = mysqli
 host = localhost
-username = ojs
-password = ojs
-name = ojs
+username = lennyr_ojs211
+password = lyw?Q_6wKnDu
+name = papers_ojs211
 
 ; Set the non-standard port and/or socket, if used
 ; port = 3306
