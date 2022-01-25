@@ -42,7 +42,7 @@ msgid "editor.me"
 msgstr "Me"
 
 msgid "editor.publicIdentificationExists"
-msgstr "The public identifier '{$publicIdentifier}' already exists for another object (issue, article, galley or file). Please choose unique identifiers within your journal."
+msgstr "The public identifier '{$publicIdentifier}' already exists for another object (issue, article, galley or file). Please choose unique identifiers within your proceedings."
 
 msgid "editor.submissionArchive.noSubmissions"
 msgstr "No submissions in the archive."
@@ -81,10 +81,10 @@ msgid "editor.usersNotified"
 msgstr "Users Notified"
 
 msgid "editor.notifyUsers.allUsers"
-msgstr "Send this message to all users associated with this journal ({$count} users)"
+msgstr "Send this message to all users associated with this proceedings ({$count} users)"
 
 msgid "editor.notifyUsers.interestedUsers"
-msgstr "Send this message to the users associated with this journal who have indicated that they wish to receive updates ({$count} users)"
+msgstr "Send this message to the users associated with this proceedings who have indicated that they wish to receive updates ({$count} users)"
 
 msgid "editor.notifyUsers.includeToc"
 msgstr "Include the table of contents from this issue:"
@@ -216,7 +216,7 @@ msgid "editor.issues.confirmIssueDelete"
 msgstr "All articles will be returned to the editing queue and all associated files will be permanently removed.  Are you sure you want to remove this issue?"
 
 msgid "editor.issues.resetIssueOrder"
-msgstr "This journal uses custom issue ordering. <a href=\"{$url}\" class=\"action\">Reset to defaults</a>"
+msgstr "This proceedings uses custom issue ordering. <a href=\"{$url}\" class=\"action\">Reset to defaults</a>"
 
 msgid "editor.issues.resetSectionOrder"
 msgstr "This issue uses custom section ordering. <a href=\"{$url}\" class=\"action\">Reset to defaults</a>"
@@ -423,7 +423,7 @@ msgid "editor.submission.proof.manageProofFilesDescription"
 msgstr "Any files that have already been uploaded to any submission stage can be added to the Proofreading listing by checking the Include checkbox below and clicking Search: all available files will be listed and can be chosen for inclusion."
 
 msgid "editor.publicIdentificationExistsForTheSameType"
-msgstr "The public identifier '{$publicIdentifier}' already exists for another object of the same type. Please choose unique identifiers for the objects of the same type within your journal."
+msgstr "The public identifier '{$publicIdentifier}' already exists for another object of the same type. Please choose unique identifiers for the objects of the same type within your proceedings."
 
 msgid "editor.article.coverImage"
 msgstr "Cover Image"

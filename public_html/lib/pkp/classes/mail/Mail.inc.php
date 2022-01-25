@@ -465,6 +465,8 @@ class Mail extends DataObject {
 	 * @return boolean
 	 */
 	function send() {
+        ##$this->writeToErrorLog( "wooow" );
+        ##$this->echo("woow");
 		if (HookRegistry::call('Mail::send', array($this))) return true;
 
 		// Replace all the private parameters for this message.
@@ -480,6 +482,8 @@ class Mail extends DataObject {
 		$mailer->Encoding = 'base64';
 		if (Config::getVar('email', 'smtp')) {
 			$mailer->IsSMTP();
+            $mailer->SMTPDebug = SMTP::DEBUG_SERVER;
+
 			$mailer->Port = Config::getVar('email', 'smtp_port');
 			if (($s = Config::getVar('email', 'smtp_auth')) != '') {
 				$mailer->SMTPSecure = $s;
@@ -558,6 +562,7 @@ class Mail extends DataObject {
 			// this sets both the envelope sender (RFC5321.MailFrom) and the From: header (RFC5322.From)
 			$mailer->SetFrom($f['email'], $f['name']);
 		}
+        ##$mailer->SetFrom('papers@academic-conferences.org', 'Papers');
 		// Set the envelope sender (RFC5321.MailFrom)
 		if (($s = $this->getEnvelopeSender()) != null) $mailer->Sender = $s;
 		foreach ((array) $this->getReplyTo() as $r) {

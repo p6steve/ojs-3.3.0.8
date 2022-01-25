@@ -68,6 +68,13 @@
 		</section>
 	{/if}
 
+	{* Additional Homepage Content *}
+	{if $additionalHomeContent}
+		<div class="additional_content">
+			{$additionalHomeContent}
+		</div>
+	{/if}
+
 	{* Latest issue *}
 	{if $issue}
 		<section class="current_issue">
@@ -83,13 +90,6 @@
 				{translate key="journal.viewAllIssues"}
 			</a>
 		</section>
-	{/if}
-
-	{* Additional Homepage Content *}
-	{if $additionalHomeContent}
-		<div class="additional_content">
-			{$additionalHomeContent}
-		</div>
 	{/if}
 </div><!-- .page -->
 
