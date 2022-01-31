@@ -33,25 +33,25 @@ msgid "manager.distribution.publishingMode"
 msgstr "Publishing Mode"
 
 msgid "manager.distribution.publishingMode.none"
-msgstr "OJS will not be used to publish the proceedings's contents online."
+msgstr "OJS will not be used to publish the journal's contents online."
 
 msgid "manager.distribution.publishingMode.openAccess"
-msgstr "The proceedings will provide open access to its contents."
+msgstr "The journal will provide open access to its contents."
 
 msgid "manager.distribution.publishingMode.subscription"
-msgstr "The proceedings will require subscriptions to access some or all of its contents."
+msgstr "The journal will require subscriptions to access some or all of its contents."
 
 msgid "manager.website.archiving"
 msgstr "Archiving"
 
 msgid "manager.emails.confirmResetAll"
-msgstr "Are you sure you want to reset all email templates in this proceedings? You will lose any customizations you have made."
+msgstr "Are you sure you want to reset all email templates in this journal? You will lose any customizations you have made."
 
 msgid "manager.files.note"
-msgstr "Note: The Files Browser is an advanced feature that allows the files and directories associated with a proceedings to be viewed and manipulated directly."
+msgstr "Note: The Files Browser is an advanced feature that allows the files and directories associated with a journal to be viewed and manipulated directly."
 
-msgid "manager.proceedingsManagement"
-msgstr "Proceedings Management"
+msgid "manager.journalManagement"
+msgstr "Journal Management"
 
 msgid "manager.language.ui"
 msgstr "UI"
@@ -63,16 +63,16 @@ msgid "manager.language.forms"
 msgstr "Forms"
 
 msgid "manager.language.confirmDefaultSettingsOverwrite"
-msgstr "This will replace any locale-specific proceedings settings you had for this locale"
+msgstr "This will replace any locale-specific journal settings you had for this locale"
 
 msgid "manager.languages.languageInstructions"
 msgstr "OJS can be made available to users in any of several supported languages. As well, OJS can operate as a multilingual system, providing users with an ability to toggle between languages on each page, and allowing certain data to be entered in several additional languages.<br /><br/>If a language supported by OJS is not listed below, ask your site administrator to install the language from the site administration interface. For instructions on adding support for new languages, please consult the OJS documentation."
 
 msgid "manager.languages.noneAvailable"
-msgstr "Sorry, no additional languages are available. Contact your site administrator if you wish to use additional languages with this proceedings."
+msgstr "Sorry, no additional languages are available. Contact your site administrator if you wish to use additional languages with this journal."
 
 msgid "manager.languages.primaryLocaleInstructions"
-msgstr "This will be the default language for the proceedings site."
+msgstr "This will be the default language for the journal site."
 
 msgid "manager.managementPages"
 msgstr "Management Pages"
@@ -118,7 +118,7 @@ msgstr "General Fees"
 
 #, fuzzy
 msgid "manager.payment.generalFeesDescription"
-msgstr "The Association Membership will appear in About the Proceedings under Policies."
+msgstr "The Association Membership will appear in About the Journal under Policies."
 
 msgid "manager.payment.generalOptions"
 msgstr "General Options"
@@ -133,13 +133,13 @@ msgid "manager.payment.options"
 msgstr "Options"
 
 msgid "manager.payment.options.acceptSubscriptionPayments"
-msgstr "This will activate payments for Subscriptions, where types, cost, duration and subscriptions are managed by the Proceedings (Subscription) Manager."
+msgstr "This will activate payments for Subscriptions, where types, cost, duration and subscriptions are managed by the Journal (Subscription) Manager."
 
 msgid "subscriptionManager.subscription.confirmRemove"
 msgstr "Are you sure you wish to delete this subscription?"
 
 msgid "manager.payment.options.enablePayments"
-msgstr "Payments will be enabled for this proceedings. Note that users will be required to log in to make payments."
+msgstr "Payments will be enabled for this journal. Note that users will be required to log in to make payments."
 
 msgid "manager.payment.options.fee"
 msgstr "Fee"
@@ -187,7 +187,7 @@ msgid "manager.payment.readerFees"
 msgstr "Reader Fees"
 
 msgid "manager.payment.readerFeesDescription"
-msgstr "Selected options, along with their descriptions and fees (which can be edited below), will appear in About the Proceedings under Policies, as well as at points where payment is required."
+msgstr "Selected options, along with their descriptions and fees (which can be edited below), will appear in About the Journal under Policies, as well as at points where payment is required."
 
 msgid "manager.payment.records"
 msgstr "Records"
@@ -199,13 +199,13 @@ msgid "manager.payment.userName"
 msgstr "Payment ID"
 
 msgid "manager.people.allEnrolledUsers"
-msgstr "Users Enrolled in this Proceedings"
+msgstr "Users Enrolled in this Journal"
 
-msgid "manager.people.allProceedings"
-msgstr "All Proceedings"
+msgid "manager.people.allJournals"
+msgstr "All Journals"
 
 msgid "manager.people.allSiteUsers"
-msgstr "Enroll a User from this Site in this Proceedings"
+msgstr "Enroll a User from this Site in this Journal"
 
 msgid "manager.people.showNoRole"
 msgstr "Show users with no role"
@@ -214,7 +214,7 @@ msgid "manager.people.allUsers"
 msgstr "All Enrolled Users"
 
 msgid "manager.people.confirmRemove"
-msgstr "Remove this user from this proceedings? This action will unenroll the user from all roles within this proceedings."
+msgstr "Remove this user from this journal? This action will unenroll the user from all roles within this journal."
 
 msgid "manager.people.emailUsers.selectTemplate"
 msgstr "Select a template"
@@ -222,8 +222,8 @@ msgstr "Select a template"
 msgid "manager.people.enrollExistingUser"
 msgstr "Enroll an Existing User"
 
-msgid "manager.people.enrollSyncProceedings"
-msgstr "With proceedings"
+msgid "manager.people.enrollSyncJournal"
+msgstr "With journal"
 
 msgid "manager.people.mergeUsers.from.description"
 msgstr "Select a user (or several) to merge into another user account (e.g., when someone has two user accounts). The account(s) selected first will be deleted and any submissions, assignments, etc. will be attributed to the second account."
@@ -235,7 +235,7 @@ msgid "manager.people.roleEnrollment"
 msgstr "{$role} Enrollment"
 
 msgid "manager.people.syncUserDescription"
-msgstr "Enrollment synchronization will enroll all users enrolled in the specified role in the specified proceedings into the same role in this proceedings. This function allows a common set of users (e.g., Reviewers) to be synchronized between proceedings."
+msgstr "Enrollment synchronization will enroll all users enrolled in the specified role in the specified journal into the same role in this journal. This function allows a common set of users (e.g., Reviewers) to be synchronized between journals."
 
 msgid "manager.sections.abstractsNotRequired"
 msgstr "Do not require abstracts"
@@ -256,7 +256,7 @@ msgid "manager.sections.create"
 msgstr "Create Section"
 
 msgid "manager.section.sectionEditorInstructions"
-msgstr "Add a Section Editor to this section to have submissions automatically assigned to the Section Editor. (Otherwise, Section Editors can be assigned manually, after a submission comes in.) If added, a Section Editor can be automatically assigned to oversee the REVIEW (peer review) and/or the EDITING (copyediting, layout and proofreading) of submissions to this section. Section Editors are created by clicking Section Editors under Roles in Proceedings Management."
+msgstr "Add a Section Editor to this section to have submissions automatically assigned to the Section Editor. (Otherwise, Section Editors can be assigned manually, after a submission comes in.) If added, a Section Editor can be automatically assigned to oversee the REVIEW (peer review) and/or the EDITING (copyediting, layout and proofreading) of submissions to this section. Section Editors are created by clicking Section Editors under Roles in Journal Management."
 
 msgid "manager.sections.editorRestriction"
 msgstr "Items can only be submitted by Editors and Section Editors."
@@ -268,7 +268,7 @@ msgstr "Section editors"
 msgid "manager.sections.confirmDeactivateSection.error"
 msgstr ""
 "At least one section must be active. Visit the workflow settings to disable "
-"all submissions to this proceedings."
+"all submissions to this journal."
 
 msgid "manager.sections.form.abbrevRequired"
 msgstr "An abbreviated title is required for the section"
@@ -313,13 +313,13 @@ msgid "manager.sections.reviewed"
 msgstr "Peer Reviewed"
 
 msgid "manager.sections.submissionIndexing"
-msgstr "Will not be included in the indexing of the proceedings"
+msgstr "Will not be included in the indexing of the journal"
 
 msgid "manager.sections.submissionReview"
 msgstr "Will not be peer-reviewed"
 
 msgid "manager.section.submissionsToThisSection"
-msgstr "Submissions made to this section of the proceedings"
+msgstr "Submissions made to this section of the journal"
 
 msgid "manager.sections.unassigned"
 msgstr "Available Section Editors"
@@ -331,7 +331,7 @@ msgid "manager.sections.wordCountInstructions"
 msgstr "Limit abstract word counts for this section (0 for no limit)"
 
 msgid "manager.setup"
-msgstr "Proceedings Settings"
+msgstr "Journal Settings"
 
 msgid "manager.setup.masthead"
 msgstr "Masthead"
@@ -340,19 +340,19 @@ msgid "manager.setup.editorialTeam"
 msgstr "Editorial Team"
 
 msgid "manager.setup.homepageContent"
-msgstr "Proceedings Homepage Content"
+msgstr "Journal Homepage Content"
 
 msgid "manager.setup.homepageContentDescription"
-msgstr "The proceedings homepage consists of navigation links by default. Additional homepage content can be appended by using one or all of the following options, which will appear in the order shown."
+msgstr "The journal homepage consists of navigation links by default. Additional homepage content can be appended by using one or all of the following options, which will appear in the order shown."
 
 msgid "manager.setup.useStyleSheet"
-msgstr "Proceedings style sheet"
+msgstr "Journal style sheet"
 
 msgid "manager.setup.contextName"
-msgstr "Proceedings Name"
+msgstr "Journal Name"
 
 msgid "manager.setup.pageHeader"
-msgstr "Proceedings Page Header"
+msgstr "Journal Page Header"
 
 msgid "manager.setup.aboutItemContent"
 msgstr "Content"
@@ -366,8 +366,8 @@ msgstr "Add Checklist Item"
 msgid "manager.setup.addItem"
 msgstr "Add Item"
 
-msgid "manager.setup.addItemtoAboutProceedings"
-msgstr "Add Item to Appear in \"About the Proceedings\""
+msgid "manager.setup.addItemtoAboutJournal"
+msgstr "Add Item to Appear in \"About the Journal\""
 
 msgid "manager.setup.addNavItem"
 msgstr "Add Item"
@@ -393,8 +393,8 @@ msgstr "Introduction"
 msgid "manager.setup.announcementsIntroduction.description"
 msgstr "Enter any information you would like to appear on your announcements page."
 
-msgid "manager.setup.appearInAboutProceedings"
-msgstr "(To appear in About the Proceedings) "
+msgid "manager.setup.appearInAboutJournal"
+msgstr "(To appear in About the Journal) "
 
 msgid "manager.setup.competingInterests.requireAuthors"
 msgstr "Require submitting Authors to file a Competing Interest (CI) statement with their submission."
@@ -403,10 +403,10 @@ msgid "manager.setup.competingInterests.requireReviewers"
 msgstr "Require Reviewers to file a CI statement with each peer review they submit."
 
 msgid "manager.setup.history"
-msgstr "Proceedings History"
+msgstr "Journal History"
 
 msgid "manager.setup.historyDescription"
-msgstr "This text will appear in the \"About\" section of the proceedings website and can be used to describe changes in titles, editorial board, and other items of relevance to the proceedings's publication history."
+msgstr "This text will appear in the \"About\" section of the journal website and can be used to describe changes in titles, editorial board, and other items of relevance to the journal's publication history."
 
 msgid "manager.setup.currentIssue"
 msgstr "Current issue"
@@ -418,22 +418,22 @@ msgid "manager.setup.details"
 msgstr "Details"
 
 msgid "manager.setup.details.description"
-msgstr "Name of proceedings, ISSN, contacts, sponsors, and search engines."
+msgstr "Name of journal, ISSN, contacts, sponsors, and search engines."
 
 msgid "manager.setup.disableUserRegistration"
-msgstr "The Proceedings Manager will register all user accounts. Editors or Section Editors may register user accounts for reviewers."
+msgstr "The Journal Manager will register all user accounts. Editors or Section Editors may register user accounts for reviewers."
 
 msgid "manager.setup.discipline"
 msgstr "Academic Discipline and Sub-Disciplines"
 
 msgid "manager.setup.disciplineDescription"
-msgstr "Useful when proceedings crosses disciplinary boundaries and/or authors submit multidisciplinary items."
+msgstr "Useful when journal crosses disciplinary boundaries and/or authors submit multidisciplinary items."
 
 msgid "manager.setup.disciplineExamples"
 msgstr "(E.g., History; Education; Sociology; Psychology; Cultural Studies; Law)"
 
 msgid "manager.setup.disciplineProvideExamples"
-msgstr "Provide examples of relevant academic disciplines for this proceedings"
+msgstr "Provide examples of relevant academic disciplines for this journal"
 
 msgid "manager.setup.displayCurrentIssue"
 msgstr "Add the table of contents for the current issue (if available)."
@@ -457,13 +457,13 @@ msgid "manager.setup.emailSignature"
 msgstr "Signature"
 
 msgid "manager.setup.emailSignature.description"
-msgstr "The prepared emails that are sent by the system on behalf of the proceedings will have the following signature added to the end."
+msgstr "The prepared emails that are sent by the system on behalf of the journal will have the following signature added to the end."
 
 msgid "manager.setup.enableAnnouncements.enable"
 msgstr "Enable announcements"
 
 msgid "manager.setup.enableAnnouncements.description"
-msgstr "Announcements may be published to inform readers of proceedings news and events. Published announcements will appear on the Announcements page."
+msgstr "Announcements may be published to inform readers of journal news and events. Published announcements will appear on the Announcements page."
 
 msgid "manager.setup.numAnnouncementsHomepage"
 msgstr "Display on Homepage"
@@ -472,19 +472,19 @@ msgid "manager.setup.numAnnouncementsHomepage.description"
 msgstr "How many announcements to display on the homepage. Leave this empty to display none."
 
 msgid "manager.setup.enableUserRegistration"
-msgstr "Visitors can register a user account with the proceedings."
+msgstr "Visitors can register a user account with the journal."
 
 msgid "manager.setup.focusAndScope"
 msgstr "Focus and scope"
 
 msgid "manager.setup.focusAndScope.description"
-msgstr "Describe to authors, readers, and librarians the range of articles and other items the proceedings will publish."
+msgstr "Describe to authors, readers, and librarians the range of articles and other items the journal will publish."
 
 msgid "manager.setup.forAuthorsToIndexTheirWork"
 msgstr "For Authors to Index Their Work"
 
 msgid "manager.setup.forAuthorsToIndexTheirWorkDescription"
-msgstr "OJS adheres to the <a href=\"http://www.openarchives.org/\" target=\"_blank\">Open Archives Initiative</a> Protocol for Metadata Harvesting, which is the emerging standard for providing well-indexed access to electronic research resources on a global scale. The authors will use a similar template to provide metadata for their submission. The Proceedings Manager should select the categories for indexing and present authors with relevant examples to assist them in indexing their work."
+msgstr "OJS adheres to the <a href=\"http://www.openarchives.org/\" target=\"_blank\">Open Archives Initiative</a> Protocol for Metadata Harvesting, which is the emerging standard for providing well-indexed access to electronic research resources on a global scale. The authors will use a similar template to provide metadata for their submission. The Journal Manager should select the categories for indexing and present authors with relevant examples to assist them in indexing their work."
 
 msgid "manager.setup.form.issnInvalid"
 msgstr "The specified ISSN is not valid."
@@ -495,11 +495,11 @@ msgstr "The primary contact email is required."
 msgid "manager.setup.form.contactNameRequired"
 msgstr "The primary contact name is required."
 
-msgid "manager.setup.form.proceedingsInitialsRequired"
-msgstr "The proceedings initials are required."
+msgid "manager.setup.form.journalInitialsRequired"
+msgstr "The journal initials are required."
 
-msgid "manager.setup.form.proceedingsTitleRequired"
-msgstr "The proceedings title is required."
+msgid "manager.setup.form.journalTitleRequired"
+msgstr "The journal title is required."
 
 msgid "manager.setup.form.numReviewersPerSubmission"
 msgstr "The number of reviewers per submission is required."
@@ -523,16 +523,16 @@ msgid "manager.setup.guidingSubmissions"
 msgstr "Step 3. Guiding Submissions"
 
 msgid "manager.setup.identity"
-msgstr "Proceedings Identity"
+msgstr "Journal Identity"
 
 msgid "manager.setup.includeCreativeCommons"
-msgstr "For proceedings that offer immediate or delayed open access, include a Creative Commons license with all published work at the appropriate time."
+msgstr "For journals that offer immediate or delayed open access, include a Creative Commons license with all published work at the appropriate time."
 
 msgid "manager.setup.information"
 msgstr "Information"
 
 msgid "manager.setup.information.description"
-msgstr "Brief descriptions of the proceedings for librarians and prospective authors and readers. These are made available in the site's sidebar when the Information block has been added."
+msgstr "Brief descriptions of the journal for librarians and prospective authors and readers. These are made available in the site's sidebar when the Information block has been added."
 
 msgid "manager.setup.information.forAuthors"
 msgstr "For Authors"
@@ -561,86 +561,86 @@ msgstr "Items per page"
 msgid "manager.setup.itemsPerPage.description"
 msgstr "Limit the number of items (for example, submissions, users, or editing assignments) to show in a list before showing subsequent items in another page."
 
-msgid "manager.setup.proceedingsAbbreviation"
-msgstr "Proceedings Abbreviation"
+msgid "manager.setup.journalAbbreviation"
+msgstr "Journal Abbreviation"
 
-msgid "manager.setup.proceedingsArchiving"
-msgstr "Proceedings Archiving"
+msgid "manager.setup.journalArchiving"
+msgstr "Journal Archiving"
 
 msgid "manager.setup.contextSummary"
-msgstr "Proceedings Summary"
+msgstr "Journal Summary"
 
 msgid "manager.setup.contextAbout"
-msgstr "About the Proceedings"
+msgstr "About the Journal"
 
 msgid "manager.setup.contextAbout.description"
-msgstr "Include any information about your proceedings which may be of interest to readers, authors or reviewers. This could include your open access policy, the focus and scope of the proceedings, copyright notice, sponsorship disclosure, history of the proceedings, a privacy statement, and inclusion in any LOCKSS or CLOCKSS archival system."
+msgstr "Include any information about your journal which may be of interest to readers, authors or reviewers. This could include your open access policy, the focus and scope of the journal, copyright notice, sponsorship disclosure, history of the journal, a privacy statement, and inclusion in any LOCKSS or CLOCKSS archival system."
 
-msgid "manager.setup.proceedingsHomepageContent"
-msgstr "Proceedings Homepage Content"
+msgid "manager.setup.journalHomepageContent"
+msgstr "Journal Homepage Content"
 
-msgid "manager.setup.proceedingsHomepageContentDescription"
+msgid "manager.setup.journalHomepageContentDescription"
 msgstr "By default, the homepage consists of navigation links. Additional homepage content can be appended by using one or all of the following options, which will appear in the order shown. Note that the current issue is always accessible through the Current link in the navigation bar."
 
-msgid "manager.setup.proceedingsHomepageHeader"
-msgstr "Proceedings Homepage Header"
+msgid "manager.setup.journalHomepageHeader"
+msgstr "Journal Homepage Header"
 
-msgid "manager.setup.proceedingsHomepageHeader.altText"
-msgstr "Proceedings Homepage Header"
+msgid "manager.setup.journalHomepageHeader.altText"
+msgstr "Journal Homepage Header"
 
-msgid "manager.setup.proceedingsHomepageHeaderDescription"
-msgstr "A graphic version of the proceedings's title and logo (as a .gif, .jpg, or .png file) can be uploaded for the homepage, which will replace the text version that otherwise appears."
+msgid "manager.setup.journalHomepageHeaderDescription"
+msgstr "A graphic version of the journal's title and logo (as a .gif, .jpg, or .png file) can be uploaded for the homepage, which will replace the text version that otherwise appears."
 
 msgid "manager.setup.contextInitials"
-msgstr "Proceedings initials"
+msgstr "Journal initials"
 
-msgid "manager.setup.proceedingsLayout"
-msgstr "Proceedings Layout"
+msgid "manager.setup.journalLayout"
+msgstr "Journal Layout"
 
-msgid "manager.setup.proceedingsLayoutDescription"
-msgstr "Choose a proceedings theme and select layout components here. A proceedings stylesheet may also be uploaded, which can be used to override style data in the system-wide stylesheets and theme stylesheet (if a theme is chosen)."
+msgid "manager.setup.journalLayoutDescription"
+msgstr "Choose a journal theme and select layout components here. A journal stylesheet may also be uploaded, which can be used to override style data in the system-wide stylesheets and theme stylesheet (if a theme is chosen)."
 
-msgid "manager.setup.proceedingsLogo"
-msgstr "Proceedings Logo"
+msgid "manager.setup.journalLogo"
+msgstr "Journal Logo"
 
-msgid "manager.setup.proceedingsLogo.altText"
-msgstr "Proceedings Logo"
+msgid "manager.setup.journalLogo.altText"
+msgstr "Journal Logo"
 
-msgid "manager.setup.proceedingsPageFooter"
-msgstr "Proceedings Page Footer"
+msgid "manager.setup.journalPageFooter"
+msgstr "Journal Page Footer"
 
-msgid "manager.setup.proceedingsPageFooterDescription"
-msgstr "This is the footer of your proceedings. To change or update the footer, paste the HTML code in the textbox below. Examples could be another navigation bar, a counter, etc. This footer will appear on every page."
+msgid "manager.setup.journalPageFooterDescription"
+msgstr "This is the footer of your journal. To change or update the footer, paste the HTML code in the textbox below. Examples could be another navigation bar, a counter, etc. This footer will appear on every page."
 
-msgid "manager.setup.proceedingsPolicies"
-msgstr "Step 2. Proceedings Policies"
+msgid "manager.setup.journalPolicies"
+msgstr "Step 2. Journal Policies"
 
-msgid "manager.setup.proceedingsSetup"
-msgstr "Proceedings Setup"
+msgid "manager.setup.journalSetup"
+msgstr "Journal Setup"
 
-msgid "manager.setup.proceedingsSetupUpdated"
-msgstr "Your proceedings setup has been updated."
+msgid "manager.setup.journalSetupUpdated"
+msgstr "Your journal setup has been updated."
 
-msgid "manager.setup.proceedingsStyleSheetInvalid"
-msgstr "Invalid proceedings stylesheet format. Accepted format is .css."
+msgid "manager.setup.journalStyleSheetInvalid"
+msgstr "Invalid journal stylesheet format. Accepted format is .css."
 
-msgid "manager.setup.proceedingsTheme"
-msgstr "Proceedings Theme"
+msgid "manager.setup.journalTheme"
+msgstr "Journal Theme"
 
-msgid "manager.setup.proceedingsThumbnail"
-msgstr "Proceedings thumbnail"
+msgid "manager.setup.journalThumbnail"
+msgstr "Journal thumbnail"
 
-msgid "manager.setup.proceedingsThumbnail.description"
-msgstr "A small logo or representation of the proceedings that can be used in lists of proceedings."
+msgid "manager.setup.journalThumbnail.description"
+msgstr "A small logo or representation of the journal that can be used in lists of journals."
 
 msgid "manager.setup.contextTitle"
-msgstr "Proceedings title"
+msgstr "Journal title"
 
 msgid "manager.setup.keyInfo"
 msgstr "Key Information"
 
 msgid "manager.setup.keyInfo.description"
-msgstr "Provide a short description of your proceedings and identify editors, managing directors and other members of your editorial team."
+msgstr "Provide a short description of your journal and identify editors, managing directors and other members of your editorial team."
 
 msgid "manager.setup.labelName"
 msgstr "Label name"
@@ -652,7 +652,7 @@ msgid "manager.setup.plnPluginEnable"
 msgstr "Enable the PKP PN plugin"
 
 msgid "manager.setup.plnDescription"
-msgstr "The PKP Preservation Network (PN) provides free preservation services for any OJS proceedings that meets a few basic criteria."
+msgstr "The PKP Preservation Network (PN) provides free preservation services for any OJS journal that meets a few basic criteria."
 
 msgid "manager.setup.plnSettingsDescription"
 msgstr "View the <button>plugin settings</button> to accept the terms of use for the PKP PN."
@@ -661,31 +661,31 @@ msgid "manager.setup.plnPluginArchiving"
 msgstr "PKP Preservation Network (PN)"
 
 msgid "manager.setup.plnPluginNotInstalled"
-msgstr "The PKP Preservation Network (PN) provides free preservation services for any OJS proceedings that meets a few basic criteria. The PKP PN plugin for OJS 3 is currently in development and will be available in the plugin gallery soon."
+msgstr "The PKP Preservation Network (PN) provides free preservation services for any OJS journal that meets a few basic criteria. The PKP PN plugin for OJS 3 is currently in development and will be available in the plugin gallery soon."
 
 msgid "manager.setup.otherLockss"
 msgstr "LOCKSS and CLOCKSS"
 
 msgid "manager.setup.lockssEnable"
-msgstr "Enable LOCKSS to store and distribute proceedings content at participating libraries via a LOCKSS <a href=\"{$lockssUrl}\" target=\"_blank\">Publisher Manifest</a> page."
+msgstr "Enable LOCKSS to store and distribute journal content at participating libraries via a LOCKSS <a href=\"{$lockssUrl}\" target=\"_blank\">Publisher Manifest</a> page."
 
 msgid "manager.setup.lockssLicenseDescription"
-msgstr "A LOCKSS license will appear in About the Proceedings under Archiving: <a href=\"http://www.lockss.org/community/publishers-titles-gln/\" target=\"_blank\">LOCKSS License</a>"
+msgstr "A LOCKSS license will appear in About the Journal under Archiving: <a href=\"http://www.lockss.org/community/publishers-titles-gln/\" target=\"_blank\">LOCKSS License</a>"
 
 msgid "manager.setup.lockssLicenseLabel"
 msgstr "LOCKSS License Description"
 
 msgid "manager.setup.lockssRegister"
-msgstr "Identify 6-10 libraries that will register and cache the proceedings. For example, turn to institutions where editors or Board members work and/or institutions already participating in LOCKSS. See <a href=\"http://www.lockss.org/community/\" target=\"_blank\">the LOCKSS community</a>."
+msgstr "Identify 6-10 libraries that will register and cache the journal. For example, turn to institutions where editors or Board members work and/or institutions already participating in LOCKSS. See <a href=\"http://www.lockss.org/community/\" target=\"_blank\">the LOCKSS community</a>."
 
 msgid "manager.setup.lockssTitle"
 msgstr "LOCKSS"
 
 msgid "manager.setup.clockssEnable"
-msgstr "Enable CLOCKSS to store and distribute proceedings content at participating libraries via a CLOCKSS <a href=\"{$clockssUrl}\" target=\"_blank\">Publisher Manifest</a> page."
+msgstr "Enable CLOCKSS to store and distribute journal content at participating libraries via a CLOCKSS <a href=\"{$clockssUrl}\" target=\"_blank\">Publisher Manifest</a> page."
 
 msgid "manager.setup.clockssLicenseDescription"
-msgstr "A CLOCKSS license will appear in About the Proceedings under Archiving: <a href=\"http://clockss.org/\" target=\"_blank\">CLOCKSS License</a>"
+msgstr "A CLOCKSS license will appear in About the Journal under Archiving: <a href=\"http://clockss.org/\" target=\"_blank\">CLOCKSS License</a>"
 
 msgid "manager.setup.clockssLicenseLabel"
 msgstr "CLOCKSS License Description"
@@ -700,7 +700,7 @@ msgid "manager.setup.look"
 msgstr "The Look"
 
 msgid "manager.setup.look.description"
-msgstr "Homepage header, content, proceedings header, footer, navigation bar, and style sheet."
+msgstr "Homepage header, content, journal header, footer, navigation bar, and style sheet."
 
 msgid "manager.setup.management"
 msgstr "Management"
@@ -714,8 +714,8 @@ msgstr "Management of Basic Editorial Steps"
 msgid "manager.setup.managingPublishingSetup"
 msgstr "Management and Publishing Setup"
 
-msgid "manager.setup.managingTheProceedings"
-msgstr "Step 4. Managing the Proceedings"
+msgid "manager.setup.managingTheJournal"
+msgstr "Step 4. Managing the Journal"
 
 msgid "manager.setup.navigationBar"
 msgstr "Navigation Bar"
@@ -727,7 +727,7 @@ msgid "manager.setup.navItemIsAbsolute"
 msgstr "URL is an absolute URL (e.g., \"http://www.example.com\") rather than a path relative to the site (e.g., \"/manager/setup\")"
 
 msgid "manager.setup.navItemIsLiteral"
-msgstr "The label value is a literal string (e.g., \"Proceedings Setup\") rather than a localization message key (e.g., \"manager.setup\")"
+msgstr "The label value is a literal string (e.g., \"Journal Setup\") rather than a localization message key (e.g., \"manager.setup\")"
 
 msgid "manager.setup.noImageFileUploaded"
 msgstr "No image file uploaded."
@@ -766,19 +766,19 @@ msgid "manager.setup.proofingInstructions"
 msgstr "Proofing Instructions"
 
 msgid "manager.setup.proofingInstructionsDescription"
-msgstr "The Proofreading Instructions will be made available to Proofreaders, Authors, Layout Editors, and Section Editors in the Submission Editing stage. Below is a default set of instructions in HTML, which can be edited or replaced by the Proceedings Manager at any point (in HTML or plain text)."
+msgstr "The Proofreading Instructions will be made available to Proofreaders, Authors, Layout Editors, and Section Editors in the Submission Editing stage. Below is a default set of instructions in HTML, which can be edited or replaced by the Journal Manager at any point (in HTML or plain text)."
 
 msgid "manager.setup.publicationSchedule"
 msgstr "Publication Schedule"
 
 msgid "manager.setup.publicationScheduleDescription"
-msgstr "Proceedings items can be published collectively, as part of an issue with its own Table of Contents. Alternatively, individual items can be published as soon as they are ready, by adding them to the \"current\" volume's Table of Contents. Provide readers, in About the Proceedings, with a statement about the system this proceedings will use and its expected frequency of publication."
+msgstr "Journal items can be published collectively, as part of an issue with its own Table of Contents. Alternatively, individual items can be published as soon as they are ready, by adding them to the \"current\" volume's Table of Contents. Provide readers, in About the Journal, with a statement about the system this journal will use and its expected frequency of publication."
 
 msgid "manager.setup.publicationScheduling"
 msgstr "Publication Scheduling"
 
 msgid "manager.setup.publicIdentifier"
-msgstr "Identification of Proceedings Content"
+msgstr "Identification of Journal Content"
 
 msgid "manager.setup.publishing"
 msgstr "Publishing Details"
@@ -796,7 +796,7 @@ msgid "manager.setup.restrictArticleAccess"
 msgstr "Users must be registered and log in to view open access content."
 
 msgid "manager.setup.restrictSiteAccess"
-msgstr "Users must be registered and log in to view the proceedings site."
+msgstr "Users must be registered and log in to view the journal site."
 
 msgid "manager.setup.reviewGuidelines"
 msgstr "Review Guidelines"
@@ -850,7 +850,7 @@ msgid "manager.setup.searchEngineIndexing.description"
 msgstr "Help search engines like Google discover and display your site. You are encouraged to submit your <a href=\"{$sitemapUrl}\" target=\"_blank\">sitemap</a>."
 
 msgid "manager.setup.searchDescription.description"
-msgstr "Provide a brief description (50-300 characters) of the proceedings which search engines can display when listing the proceedings in search results."
+msgstr "Provide a brief description (50-300 characters) of the journal which search engines can display when listing the journal in search results."
 
 msgid "manager.setup.sectionsAndSectionEditors"
 msgstr "Sections and Section Editors"
@@ -859,13 +859,13 @@ msgid "manager.setup.sectionsDefaultSectionDescription"
 msgstr "(If sections are not added, then items are submitted to the Articles section by default.)"
 
 msgid "manager.setup.sectionsDescription"
-msgstr "To create or modify sections for the proceedings (e.g., Articles, Book Reviews, etc.), go to Section Management.<br /><br />Authors on submitting items to the proceedings will designate..."
+msgstr "To create or modify sections for the journal (e.g., Articles, Book Reviews, etc.), go to Section Management.<br /><br />Authors on submitting items to the journal will designate..."
 
 msgid "manager.setup.selectEditorDescription"
-msgstr "The proceedings editor who will see it through the editorial process."
+msgstr "The journal editor who will see it through the editorial process."
 
 msgid "manager.setup.selectSectionDescription"
-msgstr "The proceedings section for which the item will be considered."
+msgstr "The journal section for which the item will be considered."
 
 msgid "manager.setup.showGalleyLinksDescription"
 msgstr "Always show galley links and indicate restricted access."
@@ -876,8 +876,8 @@ msgstr "Site Access"
 msgid "manager.setup.siteAccess.viewContent"
 msgstr "View Article Content"
 
-msgid "manager.setup.stepsToProceedingsSite"
-msgstr "Five Steps to a Proceedings Web Site"
+msgid "manager.setup.stepsToJournalSite"
+msgstr "Five Steps to a Journal Web Site"
 
 msgid "manager.setup.subjectExamples"
 msgstr "(E.g., Photosynthesis; Black Holes; Four-Color Map Problem; Bayesian Theory)"
@@ -895,7 +895,7 @@ msgid "manager.setup.submissionPreparationChecklist"
 msgstr "Submission Preparation Checklist"
 
 msgid "manager.setup.submissionPreparationChecklistDescription"
-msgstr "On making a submission to the proceedings, authors are first asked to check each item on the Submission Preparation Checklist as completed, before proceeding. The checklist also appears in the Author Guidelines, under About the Proceedings. The list can be edited below, but all items on the list will require a checkmark before authors can proceed with their submission."
+msgstr "On making a submission to the journal, authors are first asked to check each item on the Submission Preparation Checklist as completed, before proceeding. The checklist also appears in the Author Guidelines, under About the Journal. The list can be edited below, but all items on the list will require a checkmark before authors can proceed with their submission."
 
 msgid "manager.setup.submissions"
 msgstr "Submissions"
@@ -904,10 +904,10 @@ msgid "manager.setup.submissions.description"
 msgstr "Author guidelines, copyright, and indexing (including registration)."
 
 msgid "manager.setup.disableSubmissions.description"
-msgstr "Prevent users from submitting new articles to the proceedings. Submissions can be disabled for individual proceedings sections on the <a href="{$url}">proceedings sections</a> settings page."
+msgstr "Prevent users from submitting new articles to the journal. Submissions can be disabled for individual journal sections on the <a href="{$url}">journal sections</a> settings page."
 
 msgid "manager.setup.disableSubmissions.notAccepting"
-msgstr "This proceedings is not accepting submissions at this time. Visit the workflow settings to allow submissions."
+msgstr "This journal is not accepting submissions at this time. Visit the workflow settings to allow submissions."
 
 msgid "manager.setup.enableOai"
 msgstr "Enable OAI"
@@ -931,7 +931,7 @@ msgid "manager.setup.uniqueIdentifierDescription"
 msgstr "Articles and issues can be tagged with an identification number or string, employing a registration system such as the Digital Object Identifier System (DOI)."
 
 msgid "manager.setup.useEditorialReviewBoard"
-msgstr "An editorial/review board will be used by the proceedings."
+msgstr "An editorial/review board will be used by the journal."
 
 msgid "manager.setup.useThumbnail"
 msgstr "Thumbnail"
@@ -948,13 +948,13 @@ msgstr "Title text"
 msgid "manager.statistics.defaultMetricDescription"
 msgstr ""
 "\n"
-"\t\tYour proceedings is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.\n"
+"\t\tYour journal is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.\n"
 "\t\tThere are cases where a single usage statistic must be used, e.g. to display an ordered list of most-used articles or to rank\n"
 "\t\tsearch results. Please select one of the configured metrics as a default.\n"
 "\t"
 
 msgid "manager.statistics.statistics"
-msgstr "Proceedings Statistics"
+msgstr "Journal Statistics"
 
 msgid "manager.statistics.statistics.articleViews"
 msgstr "Article View Counts (for Authors only)"
@@ -975,13 +975,13 @@ msgid "manager.statistics.statistics.daysToPublication"
 msgstr "Days to publication"
 
 msgid "manager.statistics.statistics.description"
-msgstr "OJS calculates the following statistics for each proceedings. The \"days to review\" is calculated from date of submission (or designation of Review Version) to the initial Editor Decision, while the \"days to publish\" is measured for accepted submissions from its original uploading to its publication."
+msgstr "OJS calculates the following statistics for each journal. The \"days to review\" is calculated from date of submission (or designation of Review Version) to the initial Editor Decision, while the \"days to publish\" is measured for accepted submissions from its original uploading to its publication."
 
 msgid "manager.statistics.statistics.itemsPublished"
 msgstr "Items published"
 
 msgid "manager.statistics.statistics.makePublic"
-msgstr "Check items to be made available to readers in About the Proceedings."
+msgstr "Check items to be made available to readers in About the Journal."
 
 msgid "manager.statistics.statistics.note"
 msgstr "Note: Percentages for peer reviewed submissions may not add up to 100%, as items resubmitted are either accepted, declined, or still in process."
@@ -1011,7 +1011,7 @@ msgid "manager.statistics.statistics.reviewsPerReviewer"
 msgstr "No. of reviews"
 
 msgid "manager.statistics.statistics.selectSections"
-msgstr "Select the sections for calculating this proceedings's peer-reviewed statistics."
+msgstr "Select the sections for calculating this journal's peer-reviewed statistics."
 
 msgid "manager.statistics.statistics.subscriptions"
 msgstr "Subscriptions"
@@ -1025,8 +1025,8 @@ msgstr "Article abstract page views"
 msgid "manager.statistics.reports.defaultReport.articleAbstractAndDownloads"
 msgstr "Article abstract page views and downloads"
 
-msgid "manager.statistics.reports.defaultReport.proceedingsIndexPageViews"
-msgstr "Proceedings main page views"
+msgid "manager.statistics.reports.defaultReport.journalIndexPageViews"
+msgstr "Journal main page views"
 
 msgid "manager.statistics.reports.defaultReport.issuePageViews"
 msgstr "Issue table of contents page views"
@@ -1035,7 +1035,7 @@ msgid "manager.statistics.reports.filters.byContext.description"
 msgstr "Narrow results by context (issues and/or article)."
 
 msgid "manager.statistics.reports.filters.byObject.description"
-msgstr "Narrow results by object type (proceedings, issue, article, file types) and/or by one or more object id(s)."
+msgstr "Narrow results by object type (journal, issue, article, file types) and/or by one or more object id(s)."
 
 msgid "manager.subscriptionPolicies"
 msgstr "Subscription Policies"
@@ -1086,7 +1086,7 @@ msgid "manager.subscriptionPolicies.expiryReminders"
 msgstr "Subscription Expiry Reminders"
 
 msgid "manager.subscriptionPolicies.expiryRemindersDescription"
-msgstr "Automated email reminders (available for editing by Proceedings Managers in OJS's Emails) can be sent to subscribers both before and after a subscription has expired."
+msgstr "Automated email reminders (available for editing by Journal Managers in OJS's Emails) can be sent to subscribers both before and after a subscription has expired."
 
 msgid "manager.subscriptionPolicies.expiryRemindersDisabled"
 msgstr "<strong>Note:</strong> To activate these options, the site administrator must enable the <tt>scheduled_tasks</tt> option in the OJS configuration file. Additional server configuration may be required to support this functionality (which may not be possible on all servers), as indicated in the OJS documentation."
@@ -1119,7 +1119,7 @@ msgid "manager.subscriptionPolicies.onlinePaymentNotifications"
 msgstr "Online Payment Notifications"
 
 msgid "manager.subscriptionPolicies.onlinePaymentNotificationsDescription"
-msgstr "Automated email notifications (available for editing by Proceedings Managers in OJS's Emails) can be sent to the Subscription Manager upon the completion of subscription online payments."
+msgstr "Automated email notifications (available for editing by Journal Managers in OJS's Emails) can be sent to the Subscription Manager upon the completion of subscription online payments."
 
 msgid "manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationPurchaseIndividual"
 msgstr "Notify Subscription Manager by email upon online purchase of an Individual subscription."
@@ -1137,13 +1137,13 @@ msgid "manager.subscriptionPolicies.onlinePaymentPurchaseInstitutionalDescriptio
 msgstr "<strong>Note:</strong> Institutional subscriptions purchased online require approval of the provided domain and IP ranges and activation of the subscription by the Subscription Manager."
 
 msgid "manager.subscriptionPolicies.onlinePaymentDisabled"
-msgstr "<strong>Note:</strong> To enable these options, the Proceedings Manager must enable the online payments module, including online payments for subscriptions, under Reader Fees."
+msgstr "<strong>Note:</strong> To enable these options, the Journal Manager must enable the online payments module, including online payments for subscriptions, under Reader Fees."
 
 msgid "manager.subscriptionPolicies.openAccessOptions"
-msgstr "Open Access Options For Subscription Proceedings"
+msgstr "Open Access Options For Subscription Journals"
 
 msgid "manager.subscriptionPolicies.openAccessOptionsDescription"
-msgstr "Subscription proceedings can provide \"delayed open access\" to their published content, as well as permit \"author self-archiving\" (both of which increase readership and citation of content)."
+msgstr "Subscription journals can provide \"delayed open access\" to their published content, as well as permit \"author self-archiving\" (both of which increase readership and citation of content)."
 
 msgid "manager.subscriptionPolicies.subscriptionAdditionalInformation"
 msgstr "Subscription Information"
@@ -1338,10 +1338,10 @@ msgid "manager.subscriptions.form.saveAndCreateAnother"
 msgstr "Save and Create Another"
 
 msgid "manager.subscriptions.form.subscriptionContactRequired"
-msgstr "In order to send the user a notification email, the subscription contact name and email address must be specified in the proceedings Setup."
+msgstr "In order to send the user a notification email, the subscription contact name and email address must be specified in the journal Setup."
 
 msgid "manager.subscriptions.form.subscriptionExists"
-msgstr "This user already has a subscription for this proceedings."
+msgstr "This user already has a subscription for this journal."
 
 msgid "manager.subscriptions.form.typeRequired"
 msgstr "A subscription type must be created before new subscriptions can be made."
@@ -1368,7 +1368,7 @@ msgid "manager.subscriptions.selectUser"
 msgstr "Select User"
 
 msgid "manager.subscriptions.selectSubscriber.desc"
-msgstr "Subscription access privileges are automatically granted to the proceedings's Proceedings Managers, Editors, Section Editors, Layout Editors, Copyeditors, and Proofreaders."
+msgstr "Subscription access privileges are automatically granted to the journal's Journal Managers, Editors, Section Editors, Layout Editors, Copyeditors, and Proofreaders."
 
 msgid "manager.subscriptions.select"
 msgstr "Select"
@@ -1539,7 +1539,7 @@ msgid "manager.setup.categories"
 msgstr "Categories"
 
 msgid "manager.setup.categories.description"
-msgstr "Choose the most appropriate categories from the set listed above. Readers will be able to browse by category from the complete proceedings set."
+msgstr "Choose the most appropriate categories from the set listed above. Readers will be able to browse by category from the complete journal set."
 
 msgid "grid.category.path"
 msgstr "Path"
@@ -1548,10 +1548,10 @@ msgid "grid.action.addSection"
 msgstr "Add Section"
 
 msgid "manager.setup.section.description"
-msgstr "Articles within published issues of a proceedings are organized in Sections, typically by theme or content type (e.g. Review Articles, Research, etc)."
+msgstr "Articles within published issues of a journal are organized in Sections, typically by theme or content type (e.g. Review Articles, Research, etc)."
 
 msgid "settings.roles.gridDescription"
-msgstr "Roles are groups of users in the proceedings who are given access to different permission levels and associated workflows within the proceedings. There are five different permission levels: Proceedings Managers have access to everything in the proceedings (all content and settings); Section Editors have complete access to all assigned content; Proceedings Assistants have limited access to all submissions that have been explicitly assigned to them by an editor; Reviewers can see and perform the submissions they have been assigned to review; and Authors can see and interact with a limited amount of information on their own submissions. Additionally, there are five different stage assignments that roles may be given access to: Submission, Internal Review, Review, Editorial, and Production."
+msgstr "Roles are groups of users in the journal who are given access to different permission levels and associated workflows within the journal. There are five different permission levels: Journal Managers have access to everything in the journal (all content and settings); Section Editors have complete access to all assigned content; Journal Assistants have limited access to all submissions that have been explicitly assigned to them by an editor; Reviewers can see and perform the submissions they have been assigned to review; and Authors can see and interact with a limited amount of information on their own submissions. Additionally, there are five different stage assignments that roles may be given access to: Submission, Internal Review, Review, Editorial, and Production."
 
 msgid "manager.publication.library"
 msgstr "Publisher Library"
@@ -1572,7 +1572,7 @@ msgid "manager.setup.resetPermissions.confirm"
 msgstr "Are you sure you wish to reset permissions data for all articles? This action can not be undone."
 
 msgid "manager.setup.resetPermissions.description"
-msgstr "Remove the copyright statement and license information for every published article, reverting them to the proceedings's current default settings. This will permanently remove all prior copyright and licensing information attached to articles. In some cases, you may not be legally permitted to re-license work that has been published under a different license. Please take caution when using this tool and consult legal expertise if you are unsure what rights you hold over the articles published in your proceedings."
+msgstr "Remove the copyright statement and license information for every published article, reverting them to the journal's current default settings. This will permanently remove all prior copyright and licensing information attached to articles. In some cases, you may not be legally permitted to re-license work that has been published under a different license. Please take caution when using this tool and consult legal expertise if you are unsure what rights you hold over the articles published in your journal."
 
 msgid "manager.setup.resetPermissions.success"
 msgstr "Article permissions were successfully reset."
@@ -1677,19 +1677,19 @@ msgid "plugins.importexport.common.validation.fail"
 msgstr "Validation Failed."
 
 msgid "plugins.importexport.common.senderTask.warning.noDOIprefix"
-msgstr "DOI prefix is missing for the proceedings with the path {$path}."
+msgstr "DOI prefix is missing for the journal with the path {$path}."
 
 msgid "plugins.importexport.common.cliError"
 msgstr "ERROR:"
 
-msgid "plugins.importexport.common.error.unknownProceedings"
-msgstr "The specified proceedings path, \"{$proceedingsPath}\", does not exist."
+msgid "plugins.importexport.common.error.unknownJournal"
+msgstr "The specified journal path, \"{$journalPath}\", does not exist."
 
 msgid "plugins.importexport.common.error.unknownObjects"
 msgstr "The specified objects could not be found."
 
 msgid "manager.setup.notifications.copyPrimaryContact"
-msgstr "Send a copy to the primary contact, identified in the Proceedings Settings."
+msgstr "Send a copy to the primary contact, identified in the Journal Settings."
 
 msgid "stats.publicationStats"
 msgstr "Article Stats"

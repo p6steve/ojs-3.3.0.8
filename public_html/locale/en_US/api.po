@@ -12,49 +12,49 @@ msgstr ""
 "Language: \n"
 
 msgid "api.announcements.400.contextsNotMatched"
-msgstr "The announcement you requested is not part of this proceedings."
+msgstr "The announcement you requested is not part of this journal."
 
 msgid "api.emails.403.disabled"
-msgstr "The email notification feature has not been enabled for this proceedings."
+msgstr "The email notification feature has not been enabled for this journal."
 
 msgid "api.submissions.403.cantChangeContext"
-msgstr "You can not change the proceedings of a submission."
+msgstr "You can not change the journal of a submission."
 
 msgid "api.submissions.403.unpublishedIssues"
 msgstr "You do not have permission to view unpublished issues."
 
 msgid "api.submissions.403.contextRequired"
-msgstr "To make or edit a submission you must make a request to the proceedings's API endpoint."
+msgstr "To make or edit a submission you must make a request to the journal's API endpoint."
 
 msgid "api.contexts.403.requestedDisabledContexts"
-msgstr "You can only view proceedings that have been enabled."
+msgstr "You can only view journals that have been enabled."
 
 msgid "api.contexts.403.notAllowed"
-msgstr "You do not have permission to view this proceedings."
+msgstr "You do not have permission to view this journal."
 
 msgid "api.contexts.403.contextsDidNotMatch"
-msgstr "You can not view or edit this proceedings unless you make a request to the proceedings's API or the site-wide API."
+msgstr "You can not view or edit this journal unless you make a request to the journal's API or the site-wide API."
 
 msgid "api.contexts.403.requiresContext"
-msgstr "You can not edit this proceedings from the site-wide API."
+msgstr "You can not edit this journal from the site-wide API."
 
 msgid "api.contexts.403.notAllowedEdit"
-msgstr "You do not have permission to edit this proceedings."
+msgstr "You do not have permission to edit this journal."
 
 msgid "api.contexts.403.notAllowedDelete"
-msgstr "You do not have permission to delete this proceedings."
+msgstr "You do not have permission to delete this journal."
 
 msgid "api.contexts.404.contextNotFound"
-msgstr "The proceedings you requested was not found."
+msgstr "The journal you requested was not found."
 
 msgid "api.emailTemplates.403.notAllowedChangeContext"
-msgstr "You do not have permission to move this email template to another proceedings."
+msgstr "You do not have permission to move this email template to another journal."
 
 msgid "api._payments.400.invalidPaymentMethod"
 msgstr "The payment method you selected is not supported."
 
 msgid "api.publications.403.contextsDidNotMatch"
-msgstr "The publication that you requested is not part of this proceedings."
+msgstr "The publication that you requested is not part of this journal."
 
 msgid "api.publications.403.submissionsDidNotMatch"
 msgstr "The publication that you requested is not part of this submission."

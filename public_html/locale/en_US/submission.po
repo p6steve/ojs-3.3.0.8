@@ -42,13 +42,13 @@ msgid "submission.abstract.wordCount.description"
 msgstr "The abstract must be {$wordCount} words or less."
 
 msgid "submission.submit.noContext"
-msgstr "This submission's proceedings could not be found."
+msgstr "This submission's journal could not be found."
 
 msgid "submission.issueEntry"
 msgstr "Metadata"
 
 msgid "submission.submit.whatNext.description"
-msgstr "The proceedings has been notified of your submission, and you've been emailed a confirmation for your records.  Once the editor has reviewed the submission, they will contact you."
+msgstr "The journal has been notified of your submission, and you've been emailed a confirmation for your records.  Once the editor has reviewed the submission, they will contact you."
 
 msgid "grid.action.galleyInIssueEntry"
 msgstr "Galley appears in issue entry"
@@ -99,7 +99,7 @@ msgid "submission.pageProofs"
 msgstr "Proofreading"
 
 msgid "submission.confirmSubmit"
-msgstr "Are you sure you wish to submit this article to the proceedings?"
+msgstr "Are you sure you wish to submit this article to the journal?"
 
 msgid "workflow.review.externalReview"
 msgstr "Review"
@@ -156,7 +156,7 @@ msgid "submission.citationFormat.notFound"
 msgstr "The requested citation format could not be retrieved."
 
 msgid "submission.metadataDescription"
-msgstr "These specifications are based on the Dublin Core metadata set, an international standard used to describe proceedings content."
+msgstr "These specifications are based on the Dublin Core metadata set, an international standard used to describe journal content."
 
 msgid "submission.viewingPreview"
 msgstr "This is a preview and has not been published. <a href=\"{$url}\">View submission</a>"
