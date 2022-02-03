@@ -50,7 +50,7 @@ msgstr "Are you sure you want to reset all email templates in this proceedings? 
 msgid "manager.files.note"
 msgstr "Note: The Files Browser is an advanced feature that allows the files and directories associated with a proceedings to be viewed and manipulated directly."
 
-msgid "manager.proceedingsManagement"
+msgid "manager.journalManagement"
 msgstr "Proceedings Management"
 
 msgid "manager.language.ui"
@@ -201,7 +201,7 @@ msgstr "Payment ID"
 msgid "manager.people.allEnrolledUsers"
 msgstr "Users Enrolled in this Proceedings"
 
-msgid "manager.people.allProceedings"
+msgid "manager.people.allJournals"
 msgstr "All Proceedings"
 
 msgid "manager.people.allSiteUsers"
@@ -222,7 +222,7 @@ msgstr "Select a template"
 msgid "manager.people.enrollExistingUser"
 msgstr "Enroll an Existing User"
 
-msgid "manager.people.enrollSyncProceedings"
+msgid "manager.people.enrollSyncJournal"
 msgstr "With proceedings"
 
 msgid "manager.people.mergeUsers.from.description"
@@ -366,7 +366,7 @@ msgstr "Add Checklist Item"
 msgid "manager.setup.addItem"
 msgstr "Add Item"
 
-msgid "manager.setup.addItemtoAboutProceedings"
+msgid "manager.setup.addItemtoAboutJournal"
 msgstr "Add Item to Appear in \"About the Proceedings\""
 
 msgid "manager.setup.addNavItem"
@@ -393,7 +393,7 @@ msgstr "Introduction"
 msgid "manager.setup.announcementsIntroduction.description"
 msgstr "Enter any information you would like to appear on your announcements page."
 
-msgid "manager.setup.appearInAboutProceedings"
+msgid "manager.setup.appearInAboutJournal"
 msgstr "(To appear in About the Proceedings) "
 
 msgid "manager.setup.competingInterests.requireAuthors"
@@ -495,10 +495,10 @@ msgstr "The primary contact email is required."
 msgid "manager.setup.form.contactNameRequired"
 msgstr "The primary contact name is required."
 
-msgid "manager.setup.form.proceedingsInitialsRequired"
+msgid "manager.setup.form.journalInitialsRequired"
 msgstr "The proceedings initials are required."
 
-msgid "manager.setup.form.proceedingsTitleRequired"
+msgid "manager.setup.form.journalTitleRequired"
 msgstr "The proceedings title is required."
 
 msgid "manager.setup.form.numReviewersPerSubmission"
@@ -561,10 +561,10 @@ msgstr "Items per page"
 msgid "manager.setup.itemsPerPage.description"
 msgstr "Limit the number of items (for example, submissions, users, or editing assignments) to show in a list before showing subsequent items in another page."
 
-msgid "manager.setup.proceedingsAbbreviation"
+msgid "manager.setup.journalAbbreviation"
 msgstr "Proceedings Abbreviation"
 
-msgid "manager.setup.proceedingsArchiving"
+msgid "manager.setup.journalArchiving"
 msgstr "Proceedings Archiving"
 
 msgid "manager.setup.contextSummary"
@@ -576,61 +576,61 @@ msgstr "About the Proceedings"
 msgid "manager.setup.contextAbout.description"
 msgstr "Include any information about your proceedings which may be of interest to readers, authors or reviewers. This could include your open access policy, the focus and scope of the proceedings, copyright notice, sponsorship disclosure, history of the proceedings, a privacy statement, and inclusion in any LOCKSS or CLOCKSS archival system."
 
-msgid "manager.setup.proceedingsHomepageContent"
+msgid "manager.setup.journalHomepageContent"
 msgstr "Proceedings Homepage Content"
 
-msgid "manager.setup.proceedingsHomepageContentDescription"
+msgid "manager.setup.journalHomepageContentDescription"
 msgstr "By default, the homepage consists of navigation links. Additional homepage content can be appended by using one or all of the following options, which will appear in the order shown. Note that the current issue is always accessible through the Current link in the navigation bar."
 
-msgid "manager.setup.proceedingsHomepageHeader"
+msgid "manager.setup.journalHomepageHeader"
 msgstr "Proceedings Homepage Header"
 
-msgid "manager.setup.proceedingsHomepageHeader.altText"
+msgid "manager.setup.journalHomepageHeader.altText"
 msgstr "Proceedings Homepage Header"
 
-msgid "manager.setup.proceedingsHomepageHeaderDescription"
+msgid "manager.setup.journalHomepageHeaderDescription"
 msgstr "A graphic version of the proceedings's title and logo (as a .gif, .jpg, or .png file) can be uploaded for the homepage, which will replace the text version that otherwise appears."
 
 msgid "manager.setup.contextInitials"
 msgstr "Proceedings initials"
 
-msgid "manager.setup.proceedingsLayout"
+msgid "manager.setup.journalLayout"
 msgstr "Proceedings Layout"
 
-msgid "manager.setup.proceedingsLayoutDescription"
+msgid "manager.setup.journalLayoutDescription"
 msgstr "Choose a proceedings theme and select layout components here. A proceedings stylesheet may also be uploaded, which can be used to override style data in the system-wide stylesheets and theme stylesheet (if a theme is chosen)."
 
-msgid "manager.setup.proceedingsLogo"
+msgid "manager.setup.journalLogo"
 msgstr "Proceedings Logo"
 
-msgid "manager.setup.proceedingsLogo.altText"
+msgid "manager.setup.journalLogo.altText"
 msgstr "Proceedings Logo"
 
-msgid "manager.setup.proceedingsPageFooter"
+msgid "manager.setup.journalPageFooter"
 msgstr "Proceedings Page Footer"
 
-msgid "manager.setup.proceedingsPageFooterDescription"
+msgid "manager.setup.journalPageFooterDescription"
 msgstr "This is the footer of your proceedings. To change or update the footer, paste the HTML code in the textbox below. Examples could be another navigation bar, a counter, etc. This footer will appear on every page."
 
-msgid "manager.setup.proceedingsPolicies"
+msgid "manager.setup.journalPolicies"
 msgstr "Step 2. Proceedings Policies"
 
-msgid "manager.setup.proceedingsSetup"
+msgid "manager.setup.journalSetup"
 msgstr "Proceedings Setup"
 
-msgid "manager.setup.proceedingsSetupUpdated"
+msgid "manager.setup.journalSetupUpdated"
 msgstr "Your proceedings setup has been updated."
 
-msgid "manager.setup.proceedingsStyleSheetInvalid"
+msgid "manager.setup.journalStyleSheetInvalid"
 msgstr "Invalid proceedings stylesheet format. Accepted format is .css."
 
-msgid "manager.setup.proceedingsTheme"
+msgid "manager.setup.journalTheme"
 msgstr "Proceedings Theme"
 
-msgid "manager.setup.proceedingsThumbnail"
+msgid "manager.setup.journalThumbnail"
 msgstr "Proceedings thumbnail"
 
-msgid "manager.setup.proceedingsThumbnail.description"
+msgid "manager.setup.journalThumbnail.description"
 msgstr "A small logo or representation of the proceedings that can be used in lists of proceedings."
 
 msgid "manager.setup.contextTitle"
@@ -714,7 +714,7 @@ msgstr "Management of Basic Editorial Steps"
 msgid "manager.setup.managingPublishingSetup"
 msgstr "Management and Publishing Setup"
 
-msgid "manager.setup.managingTheProceedings"
+msgid "manager.setup.managingTheJournal"
 msgstr "Step 4. Managing the Proceedings"
 
 msgid "manager.setup.navigationBar"
@@ -876,7 +876,7 @@ msgstr "Site Access"
 msgid "manager.setup.siteAccess.viewContent"
 msgstr "View Article Content"
 
-msgid "manager.setup.stepsToProceedingsSite"
+msgid "manager.setup.stepsToJournalSite"
 msgstr "Five Steps to a Proceedings Web Site"
 
 msgid "manager.setup.subjectExamples"
@@ -1025,7 +1025,7 @@ msgstr "Article abstract page views"
 msgid "manager.statistics.reports.defaultReport.articleAbstractAndDownloads"
 msgstr "Article abstract page views and downloads"
 
-msgid "manager.statistics.reports.defaultReport.proceedingsIndexPageViews"
+msgid "manager.statistics.reports.defaultReport.journalIndexPageViews"
 msgstr "Proceedings main page views"
 
 msgid "manager.statistics.reports.defaultReport.issuePageViews"
@@ -1682,7 +1682,7 @@ msgstr "DOI prefix is missing for the proceedings with the path {$path}."
 msgid "plugins.importexport.common.cliError"
 msgstr "ERROR:"
 
-msgid "plugins.importexport.common.error.unknownProceedings"
+msgid "plugins.importexport.common.error.unknownJournal"
 msgstr "The specified proceedings path, \"{$proceedingsPath}\", does not exist."
 
 msgid "plugins.importexport.common.error.unknownObjects"

@@ -47,16 +47,16 @@ msgstr "Payments"
 msgid "common.homePageHeader.altText"
 msgstr "Homepage Header"
 
-msgid "common.proceedingsHomepageImage.altText"
+msgid "common.journalHomepageImage.altText"
 msgstr "Proceedings Homepage Image"
 
-msgid "navigation.proceedingsHelp"
+msgid "navigation.journalHelp"
 msgstr "Proceedings Help"
 
 msgid "navigation.current"
 msgstr "Current"
 
-msgid "navigation.otherProceedings"
+msgid "navigation.otherJournals"
 msgstr "Other Proceedings"
 
 msgid "navigation.browseByIssue"
@@ -170,7 +170,7 @@ msgstr "Indexing Information"
 msgid "article.metadata"
 msgstr "Metadata"
 
-msgid "article.proceedingsSection"
+msgid "article.journalSection"
 msgstr "Proceedings Section"
 
 msgid "article.file"
@@ -365,22 +365,22 @@ msgstr "Proofread"
 msgid "submission.search"
 msgstr "Article Search"
 
-msgid "proceedings.currentIssue"
+msgid "journal.currentIssue"
 msgstr "Current Issue"
 
 msgid "context.contexts"
 msgstr "Proceedings"
 
-msgid "proceedings.path"
+msgid "journal.path"
 msgstr "Path"
 
 msgid "context.context"
 msgstr "Proceedings"
 
-msgid "proceedings.issn"
+msgid "journal.issn"
 msgstr "ISSN"
 
-msgid "proceedings.viewAllIssues"
+msgid "journal.viewAllIssues"
 msgstr "View All Issues"
 
 msgid "user.authorization.representationNotFound"
@@ -392,10 +392,10 @@ msgstr "Include users with no roles in this proceedings."
 msgid "user.profile.profileImage"
 msgstr "Profile Image"
 
-msgid "user.showAllProceedings"
+msgid "user.showAllJournals"
 msgstr "Show My Proceedings"
 
-msgid "user.registerForOtherProceedings"
+msgid "user.registerForOtherJournals"
 msgstr "Register for Other Proceedings"
 
 msgid "user.reviewerPrompt"
@@ -416,16 +416,16 @@ msgstr "Request the following roles."
 msgid "user.register.noContextReviewerInterests"
 msgstr "If you requested to be a reviewer on any proceedings, please enter your subject interests."
 
-msgid "user.myProceedings"
+msgid "user.myJournals"
 msgstr "My Proceedings"
 
 msgid "user.manageMySubscriptions"
 msgstr "Manage My Subscriptions"
 
-msgid "user.noRoles.chooseProceedings"
+msgid "user.noRoles.chooseJournal"
 msgstr "Your account is not currently associated with any proceedings. Please choose a proceedings:"
 
-msgid "user.noRoles.noRolesForProceedings"
+msgid "user.noRoles.noRolesForJournal"
 msgstr "Your account does not currently have any roles for this proceedings. Please choose from the actions below:"
 
 msgid "user.noRoles.submitArticle"
@@ -458,10 +458,10 @@ msgstr "Section Editors"
 msgid "user.role.subscriptionManagers"
 msgstr "Subscription Managers"
 
-msgid "user.role.proceedingsAssistant"
+msgid "user.role.journalAssistant"
 msgstr "Proceedings Assistant"
 
-msgid "user.role.proceedingsAssistants"
+msgid "user.role.journalAssistants"
 msgstr "Proceedings Assistants"
 
 msgid "issue.issue"
@@ -710,7 +710,7 @@ msgstr "Publication Date"
 msgid "search.results.orderBy.issue"
 msgstr "Issue"
 
-msgid "search.results.orderBy.proceedings"
+msgid "search.results.orderBy.journal"
 msgstr "Proceedings Title"
 
 msgid "search.results.orderBy.popularityAll"
@@ -1216,7 +1216,7 @@ msgstr "Save and Email Editor"
 msgid "user.register.selectContext"
 msgstr "Select a proceedings to register with:"
 
-msgid "user.register.noProceedings"
+msgid "user.register.noJournals"
 msgstr "There are no proceedings you may register with on this site."
 
 msgid "user.register.privacyStatement"
@@ -1378,10 +1378,10 @@ msgstr "Browse Author Index"
 msgid "search.searchFor"
 msgstr "Search articles for"
 
-msgid "search.withinProceedings"
+msgid "search.withinJournal"
 msgstr "Within"
 
-msgid "search.allProceedings"
+msgid "search.allJournals"
 msgstr "All Proceedings"
 
 msgid "search.authorIndex"
@@ -1421,19 +1421,19 @@ msgstr "Article Download"
 msgid "article.nonpdf.note"
 msgstr "The file you selected should begin downloading automatically. If it does not, click the link below. Note that this file may require a special viewer or plugin to view.<br /><br />If the file does not download automatically, <a href=\"{$url}\">click here</a>."
 
-msgid "site.proceedingsHosted"
+msgid "site.journalsHosted"
 msgstr "Proceedings hosted on this site"
 
-msgid "site.proceedingsView"
+msgid "site.journalView"
 msgstr "View Proceedings"
 
-msgid "site.proceedingsRegister"
+msgid "site.journalRegister"
 msgstr "Register"
 
-msgid "site.proceedingsCurrent"
+msgid "site.journalCurrent"
 msgstr "Current Issue"
 
-msgid "site.noProceedings"
+msgid "site.noJournals"
 msgstr "There are no proceedings available."
 
 msgid "current.current"
@@ -1587,16 +1587,16 @@ msgid "about.aboutThisPublishingSystem.altText"
 msgstr "OJS Editorial and Publishing Process"
 
 msgid "about.aboutSoftware"
-msgstr "About Open Proceedings Systems"
+msgstr "About Journal Systems"
 
-msgid "about.aboutOJSProceedings"
-msgstr "This proceedings uses Open Proceedings Systems {$ojsVersion}, which is open source proceedings management and publishing software developed, supported, and freely distributed by the Public Knowledge Project under the GNU General Public License. Visit PKP's website to <a href=\"http://pkp.sfu.ca/\">learn more about the software</a>. Please <a href=\"{$contactUrl}\">contact the proceedings</a> directly with questions about the proceedings and submissions to the proceedings."
+msgid "about.aboutOJSJournals"
+msgstr "This proceedings uses Open Journal Systems {$ojsVersion}, which is open source proceedings management and publishing software developed, supported, and freely distributed by the Public Knowledge Project under the GNU General Public License. Visit PKP's website to <a href=\"http://pkp.sfu.ca/\">learn more about the software</a>. Please <a href=\"{$contactUrl}\">contact the proceedings</a> directly with questions about the proceedings and submissions to the proceedings."
 
 msgid "about.aboutOJSSite"
-msgstr "This site uses Open Proceedings Systems {$ojsVersion}, which is open source proceedings management and publishing software developed, supported, and freely distributed by the Public Knowledge Project under the GNU General Public License. Visit PKP's website to <a href=\"http://pkp.sfu.ca/\">learn more about the software</a>. Please contact the site directly with questions about its proceedings and submissions to its proceedings."
+msgstr "This site uses Open Journal Systems {$ojsVersion}, which is open source proceedings management and publishing software developed, supported, and freely distributed by the Public Knowledge Project under the GNU General Public License. Visit PKP's website to <a href=\"http://pkp.sfu.ca/\">learn more about the software</a>. Please contact the site directly with questions about its proceedings and submissions to its proceedings."
 
 msgid "help.ojsHelp"
-msgstr "Open Proceedings Systems Help"
+msgstr "Open Journal Systems Help"
 
 msgid "help.ojsHelpAbbrev"
 msgstr "OJS Help"
@@ -1802,10 +1802,10 @@ msgid "installer.databaseSettingsInstructions"
 msgstr "OJS requires access to a SQL database to store its data. See the system requirements above for a list of supported databases. In the fields below, provide the settings to be used to connect to the database."
 
 msgid "installer.installApplication"
-msgstr "Install Open Proceedings Systems"
+msgstr "Install Open Journal Systems"
 
 msgid "installer.upgradeApplication"
-msgstr "Upgrade Open Proceedings Systems"
+msgstr "Upgrade Open Journal Systems"
 
 msgid "installer.reinstallAfterDatabaseError"
 msgstr "<strong>Warning:</strong> If installation failed part way through database installation you may need to drop your OJS database or database tables before attempting to reinstall the database."
@@ -2047,10 +2047,10 @@ msgstr "<p>Remove approval of this galley.</p>"
 msgid "search.cli.rebuildIndex.indexing"
 msgstr "Indexing \"{$proceedingsName}\""
 
-msgid "search.cli.rebuildIndex.indexingByProceedingsNotSupported"
+msgid "search.cli.rebuildIndex.indexingByJournalNotSupported"
 msgstr "This search implementation does not allow per-proceedings re-indexing."
 
-msgid "search.cli.rebuildIndex.unknownProceedings"
+msgid "search.cli.rebuildIndex.unknownJournal"
 msgstr "The given proceedings path \"{$proceedingsPath}\" could not be resolved to a proceedings."
 
 msgid "editor.issues.backIssues"
